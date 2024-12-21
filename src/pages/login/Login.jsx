@@ -12,7 +12,11 @@ export default function Login() {
         <button className="loginButton">Login</button>
         </form>
         <button className="loginRegButton">Register</button>
-
+        <img
+        src="/images/test.jpeg" // Path relative to the 'public' folder
+        alt="Example"
+        style={{ width: "300px", height: "auto", borderRadius: "10px" }}
+      />
     </div>
   )
 }
